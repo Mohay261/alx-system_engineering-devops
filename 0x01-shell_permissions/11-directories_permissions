@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod ugo+x $(ls -ld */)
+chmod ugo+x $(find $(pwd) -type d)
